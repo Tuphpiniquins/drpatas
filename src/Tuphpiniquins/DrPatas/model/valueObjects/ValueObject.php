@@ -6,5 +6,5 @@ namespace Tuphpiniquins\Drpatas\Model\ValueObjects;
 
 interface ValueObject
 {
-	public function equals($other) : boolean;
+    public function equals($other) : boolean;
 }
