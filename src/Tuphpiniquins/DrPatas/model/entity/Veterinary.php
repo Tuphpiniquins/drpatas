@@ -13,7 +13,7 @@ class Veterinary extends AbstractEntity
     private $address;
     private $services;
 
-    public function __construct(string $name, Phone $phone, string $email, Address $address, array $services)
+    public function __construct(string $name, Phone $phone, Email $email, Address $address, array $services = array())
     {
         $this->name = $name;
         $this->phone = $phone;
